@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Mask Map.xcodeproj">
+      location = "self:MaskMap.xcodeproj">
    </FileRef>
 </Workspace>
