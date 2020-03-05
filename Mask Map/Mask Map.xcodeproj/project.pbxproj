@@ -13,6 +13,8 @@
 		218B936A240EA20D00DC6492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218B9368240EA20D00DC6492 /* Main.storyboard */; };
 		218B936C240EA21100DC6492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218B936B240EA21100DC6492 /* Assets.xcassets */; };
 		218B936F240EA21100DC6492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218B936D240EA21100DC6492 /* LaunchScreen.storyboard */; };
+		218B93792410C3B700DC6492 /* MaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218B93782410C3B700DC6492 /* MaskData.swift */; };
+		218B937F24111EBE00DC6492 /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218B937E24111EBE00DC6492 /* DataTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		218B936B240EA21100DC6492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		218B936E240EA21100DC6492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		218B9370240EA21100DC6492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218B93782410C3B700DC6492 /* MaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskData.swift; sourceTree = "<group>"; };
+		218B937E24111EBE00DC6492 /* DataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				218B9362240EA20D00DC6492 /* AppDelegate.swift */,
 				218B9364240EA20D00DC6492 /* SceneDelegate.swift */,
 				218B9366240EA20D00DC6492 /* ViewController.swift */,
+				218B937E24111EBE00DC6492 /* DataTableViewController.swift */,
 				218B9368240EA20D00DC6492 /* Main.storyboard */,
 				218B936B240EA21100DC6492 /* Assets.xcassets */,
 				218B936D240EA21100DC6492 /* LaunchScreen.storyboard */,
 				218B9370240EA21100DC6492 /* Info.plist */,
+				218B93782410C3B700DC6492 /* MaskData.swift */,
 			);
 			path = "Mask Map";
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				218B9367240EA20D00DC6492 /* ViewController.swift in Sources */,
+				218B937F24111EBE00DC6492 /* DataTableViewController.swift in Sources */,
 				218B9363240EA20D00DC6492 /* AppDelegate.swift in Sources */,
 				218B9365240EA20D00DC6492 /* SceneDelegate.swift in Sources */,
+				218B93792410C3B700DC6492 /* MaskData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
