@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		219C9BCA241285DE001E3F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219C9BC9241285DE001E3F46 /* AppDelegate.swift */; };
 		219C9BCC241285DE001E3F46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219C9BCB241285DE001E3F46 /* SceneDelegate.swift */; };
-		219C9BCE241285DE001E3F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219C9BCD241285DE001E3F46 /* ViewController.swift */; };
 		219C9BD1241285DE001E3F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219C9BCF241285DE001E3F46 /* Main.storyboard */; };
 		219C9BD3241285E1001E3F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219C9BD2241285E1001E3F46 /* Assets.xcassets */; };
 		219C9BD6241285E1001E3F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219C9BD4241285E1001E3F46 /* LaunchScreen.storyboard */; };
 		219C9BDE24128810001E3F46 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219C9BDD24128810001E3F46 /* Mask.swift */; };
 		219C9BE0241290F8001E3F46 /* MaskRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219C9BDF241290F8001E3F46 /* MaskRequest.swift */; };
+		21EA1A1D2413FD7F005C78B6 /* MaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA1A1C2413FD7F005C78B6 /* MaskTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		219C9BC6241285DE001E3F46 /* maskMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maskMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		219C9BC9241285DE001E3F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		219C9BCB241285DE001E3F46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		219C9BCD241285DE001E3F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		219C9BD0241285DE001E3F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		219C9BD2241285E1001E3F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		219C9BD5241285E1001E3F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		219C9BD7241285E1001E3F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		219C9BDD24128810001E3F46 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
 		219C9BDF241290F8001E3F46 /* MaskRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskRequest.swift; sourceTree = "<group>"; };
+		21EA1A1C2413FD7F005C78B6 /* MaskTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			children = (
 				219C9BC9241285DE001E3F46 /* AppDelegate.swift */,
 				219C9BCB241285DE001E3F46 /* SceneDelegate.swift */,
-				219C9BCD241285DE001E3F46 /* ViewController.swift */,
+				21EA1A1C2413FD7F005C78B6 /* MaskTableViewController.swift */,
 				219C9BCF241285DE001E3F46 /* Main.storyboard */,
 				219C9BD2241285E1001E3F46 /* Assets.xcassets */,
 				219C9BD4241285E1001E3F46 /* LaunchScreen.storyboard */,
@@ -144,11 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219C9BCE241285DE001E3F46 /* ViewController.swift in Sources */,
 				219C9BDE24128810001E3F46 /* Mask.swift in Sources */,
 				219C9BCA241285DE001E3F46 /* AppDelegate.swift in Sources */,
 				219C9BCC241285DE001E3F46 /* SceneDelegate.swift in Sources */,
 				219C9BE0241290F8001E3F46 /* MaskRequest.swift in Sources */,
+				21EA1A1D2413FD7F005C78B6 /* MaskTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
