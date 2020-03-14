@@ -16,7 +16,7 @@ enum maskError:Error {
 struct MaskRequest {
     let resourceURL:URL
     
-    init(address:String){
+    init(){
 //        let date = Date()
         let format = DateFormatter()
         format.dateFormat = "yyyy/MM/dd HH:mm:ss"

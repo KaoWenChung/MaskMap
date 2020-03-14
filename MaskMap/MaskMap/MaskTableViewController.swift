@@ -12,18 +12,19 @@ class MaskTableViewController: UITableViewController {
 
     @IBOutlet weak var searchBar: UISearchBar!
     
-    var listOfMasks = [MaskDetail](){
-        didSet{
-            DispatchQueue.main.async{
-                self.tableView.reloadData()
-                self.navigationItem.title = "\(self.listOfMasks.count) Hospitals found"
-            }
-        }
-    }
+    let listOfMasks = [MaskDetail]()
+//    {
+//        willSet{
+//            DispatchQueue.main.async{
+//                self.tableView.reloadData()
+//                self.navigationItem.title = "\(self.listOfMasks.count) Hospitals found"
+//            }
+//        }
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        searchBar.delegate = self
+//        searchBar.delegate = self
     }
 
     // MARK: - Table view data source
@@ -46,17 +47,17 @@ class MaskTableViewController: UITableViewController {
         return cell
     }
 }
-extension MaskTableViewController : UISearchBarDelegate{
-    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        guard let searchBarText = searchBar.text else{return}
-        let masksRequest = MaskRequest(address: searchBarText)
-        masksRequest.getMasks { [weak self] resault in switch resault{
-        case .failure(let error):
-            print(error)
-        case .success(let masks):
-            self?.listOfMasks = masks
-            }
-            
-        }
-}
-}
+//extension MaskTableViewController : UISearchBarDelegate{
+//    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+//        guard let searchBarText = searchBar.text else{return}
+//        let masksRequest = MaskRequest(address: searchBarText)
+//        masksRequest.getMasks { [weak self] resault in switch resault{
+//        case .failure(let error):
+//            print(error)
+//        case .success(let masks):
+//            self?.listOfMasks = masks
+//            }
+//
+//        }
+//}
+//}
